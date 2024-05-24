@@ -1,0 +1,12 @@
+import math as m
+a = pow(m.exp(4) - m.log2(34), 1/3)
+b = pow(m.log1p(20) + m.cos(45) + m.exp(1), 1/3)
+c = pow(m.log(3, 20) + m.sin(45) * (5/8), 1/4)
+d = m.log(3, 23) + pow(m.sin(34) + 5, 1/3)
+e = pow(m.log2(32) + m.pi + m.sin(56), 1/4)
+print('Odpowiedzi:')
+print(f"A: {round(a, 2)}")
+print(f"A: {round(b, 2)}")
+print(f"A: {round(c, 2)}")
+print(f"A: {round(d, 2)}")
+print(f"A: {round(e, 2)}")
